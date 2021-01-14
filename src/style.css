@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Comfortaa', cursive;
+}
+
+body {
+  background-image: url("../assets/bg.png");
+  color: white;
+}
+
+.header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 25px;
+}
+
+.header__img {
+  width: 40%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header__img img {
+  width: 100%;
+  max-width: 150px;
+}
+
+.header__menu {
+  width: 60%;
+  text-align: right;
+}
+
+.header__menu ul {
+  font-size: 1.2rem;
+  list-style: none;
+  padding: 0 10px;
+}
+
+.header__menu ul li {
+  cursor: pointer;
+}
+
+.header__menu ul li:hover {
+  border-bottom: 3px solid #663398;
+}
+
+.main {
+  width: 100%;
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main__img img {
+  max-width: 250px;
+}
+
+.main__content {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.main__content--title {
+  font-size: 1.8rem;
+}
+
+.main__content--title span {
+  color: #1485AA;
+}
+
+.main__content--text {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.4rem;
+  text-align: left;
+  padding: 10px 0;
+}
+
+.main__content--button button {
+  padding: 10px 20px;
+  background-color: #663398;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.main__content--button button:hover {
+  -webkit-transform: translate(0, 12px);
+          transform: translate(0, 12px);
+}
+/*# sourceMappingURL=style.css.map */
